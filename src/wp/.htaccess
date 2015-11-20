@@ -1,0 +1,9 @@
+<files debug.log>
+    Order allow,deny
+    Deny from all
+</files>
+
+<files wp-config.php>
+    order allow,deny
+    deny from all
+</files>
