@@ -27,9 +27,9 @@ A modified wp-config.php resides in:
 ./src/wp/wp-config.php
 
 The other configuration files works in a cascade fashion, in the following order:
-./src/wp/config/dev-config.php
-./src/wp/config/staging-config.php
-./src/wp/config/production-config.php
+* ./src/wp/config/dev-config.php
+* ./src/wp/config/staging-config.php
+* ./src/wp/config/production-config.php
 
 If given file is available it reads the configuration from that file.
 So make sure to never upload dev or staging configuration files to production servers.
